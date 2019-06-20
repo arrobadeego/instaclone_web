@@ -3,6 +3,11 @@ import './Header.css';
 
 export default function Header() {
     return(
-        <div />
+        <header id="main-header">
+            <div className="header-content">
+                <img src="" alt="InstaClone" />
+                <img src="" alt="Enviar Publicações" />
+            </div>
+        </header>
     );
 }
